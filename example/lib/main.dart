@@ -42,6 +42,7 @@ class PixideoExampleMainApp extends StatefulWidget {
 }
 
 class _PixideoExampleMainAppState extends State<PixideoExampleMainApp> {
+  
   @override
   void initState() {
     // TODO: implement initState
