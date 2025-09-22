@@ -12,9 +12,9 @@ Demo Video: https://youtu.be/Vh2gAUV0guA
 | ![](./screenshots/1.png) |
 
 
-| 1                        | 2                        |
-|--------------------------|--------------------------|
-| ![](./screenshots/2.png) | ![](./screenshots/3.png) |
+| desktop                        | mobile                        |
+|--------------------------------|-------------------------------|
+| ![](./screenshots/desktop.png) | ![](./screenshots/mobile.png) |
 
 
 | 1                        |
