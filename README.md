@@ -1,5 +1,6 @@
  # Pixideo
 
+![](assets/logo/pixideo.png)
 
 saya memiliki sedikit waktu jadi untuk sementara saat ini fitur terbatas, dan pada dasarnya support cross platform akan tetapi untuk web mungkin perlu perubahan saat render kalopun hanya preview ya bisa saja
 
