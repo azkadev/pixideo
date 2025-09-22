@@ -2,8 +2,19 @@
 
 ![](assets/logo/pixideo.png)
 
+
 saya memiliki sedikit waktu jadi untuk sementara saat ini fitur terbatas, dan pada dasarnya support cross platform akan tetapi untuk web mungkin perlu perubahan saat render kalopun hanya preview ya bisa saja
 
+- 🇮🇩 [Indonesia](./README.md)
+- 🇺🇸 [Inggris](./README_EN.md)
+- 🇰🇷 [Korea, Republic of South Korea](./README_KO.md)
+- 🇨🇳 [China](./README_zh-CN.md)
+- 🇿🇦 [South Africa](./README_AF.md)
+- 🇮🇳 [India](./README_HI.md)
+- 🇯🇵 [Japan](./README_JA.md)
+- 🇷🇺 [Russia](./README_RU.md)
+- 🇹🇭 [Thailand](./README_TH.md)
+- 🇦🇪 [United Arab Emirates](./README_AR.md)
 
 Demo Video: https://youtu.be/Vh2gAUV0guA
 
