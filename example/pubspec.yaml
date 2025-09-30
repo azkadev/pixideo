@@ -8,8 +8,10 @@ dependencies:
   cupertino_icons: '^1.0.8'
   flutter:
     sdk: 'flutter'
-  pixideo: 
-    path: ../
+  pixideo:
+    path: '../packages/pixideo'
+  pixideo_flutter:
+    path: '../packages/pixideo_flutter'
 dev_dependencies:
   flutter_lints: '^5.0.0'
   flutter_test:
@@ -26,6 +28,8 @@ project:
       social_medias:
         - 'https://github.com'
 dependency_overrides:
+  archive:
+    path: '../../../../../.pub-cache/hosted/pub.dev/archive-4.0.7'
   camera_android_camerax: '0.6.15'
   http:
     path: '../../../../../.pub-cache/hosted/pub.dev/http-1.3.0'
@@ -33,3 +37,44 @@ dependency_overrides:
   path_provider_android: '2.2.17'
   pointycastle: '^4.0.0'
 funding: []
+packagex:
+  name: 'example'
+  is_without_platform_name: true
+  is_app_auto_clean_up_folder: true
+  uploads:
+    - platform_type: 'github'
+      github_username: 'archivon-apps-stores'
+      github_tag: 'release'
+      github_is_org: false
+      github_repository_name: 'example'
+    - platform_type: 'supabase'
+      supabase_folder_name: 'release'
+    - platform_type: 'telegram'
+      telegram_chats:
+        - chat_id: '@slebew'
+          message_thread_id: ''
+  packages:
+    - dart_target: 'example'
+      flutter_target: 'main'
+      dart_name: 'example'
+      flutter_name: 'example'
+      output_name: 'example'
+      is_edge: false
+      is_edge_debug: false
+      is_edge_build_vercel: false
+      is_edge_build_supabase: false
+      is_edge_build_cloudflare: false
+      is_edge_build_netlify: false
+      is_edge_build_web: false
+      is_build_gas: false
+  flutter_build_arguments:
+    - '--split-per-abi'
+    - '--build-name'
+    - '0.0.0'
+    - '--build-number'
+    - '0'
+    - '--obfuscate'
+    - '--split-debug-info'
+    - 'packagex-build-debug'
+  dart_compile_exe_arguments:
+    - '--save-debugging-info=packagex-compile-debug'

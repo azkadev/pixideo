@@ -11,7 +11,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:pixideo/pixideo.dart';
- 
+
 import "package:path/path.dart" as path;
 
 void main() {
@@ -42,7 +42,6 @@ class PixideoExampleMainApp extends StatefulWidget {
 }
 
 class _PixideoExampleMainAppState extends State<PixideoExampleMainApp> {
-  
   @override
   void initState() {
     // TODO: implement initState
@@ -51,7 +50,6 @@ class _PixideoExampleMainAppState extends State<PixideoExampleMainApp> {
       setState(() {});
     });
   }
-
 
   final controller = PixideoController();
 
@@ -75,7 +73,7 @@ class _PixideoExampleMainAppState extends State<PixideoExampleMainApp> {
       projectName: "video_sintetis_azkadev",
       directoryProject: Directory(
         path.join(
-          Directory.current.path,
+          Platform.isAndroid || Platform.isIOS ? Directory.systemTemp.path : Directory.current.path,
           "temp",
           "pixideo",
           "generated",
@@ -85,14 +83,13 @@ class _PixideoExampleMainAppState extends State<PixideoExampleMainApp> {
   }
 }
 
-
 /// General Library Documentation Undocument By General Corporation & Global Corporation & General Developer
 class ContohSederhanaScene extends StatelessWidget {
   /// General Library Documentation Undocument By General Corporation & Global Corporation & General Developer
   const ContohSederhanaScene({super.key});
 
   @override
-  Widget build(BuildContext context) { 
+  Widget build(BuildContext context) {
     return Stack(
       children: [
         Series(
@@ -264,11 +261,11 @@ https://github.com/azkadev/pixideo
             ),
           ],
         ),
-      ], 
+      ],
     );
   }
 }
- 
+
 /// General Library Documentation Undocument By General Corporation & Global Corporation & General Developer
 class SlideWidget extends StatelessWidget {
   /// General Library Documentation Undocument By General Corporation & Global Corporation & General Developer
@@ -306,7 +303,7 @@ class SlideWidget extends StatelessWidget {
     );
   }
 }
-  
+
 /// UncompleteDocumentation
 class TextWithBorderWidget extends StatelessWidget {
   /// UncompleteDocumentation

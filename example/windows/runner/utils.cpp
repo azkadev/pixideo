@@ -1,10 +1,3 @@
-/* <!-- START LICENSE -->
-
-
-pixideo https://github.com/azkadev/pixideo
-
-
-<!-- END LICENSE --> */
 #include "utils.h"
 
 #include <flutter_windows.h>
