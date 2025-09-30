@@ -34,6 +34,10 @@ Demo Video: https://youtu.be/Vh2gAUV0guA
 | ![](./screenshots/4.png) |
 
 
+- Rendering Built In Support
+  - [x] Android
+  - [x] Linux
+
 import
 
 ```dart
